@@ -70,3 +70,5 @@ search:
 # Less
 less:
   compress: true
+local_search:
+  enable: true
