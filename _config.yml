@@ -4,7 +4,7 @@
 
 # Site
 title: feixian8
-subtitle:
+subtitle: 菲闲8
 description:
 keywords:
 author: feixian8
@@ -113,7 +113,7 @@ widgets:
   - widget: plain
     icon: fas fa-bullhorn
     title: 注意啦～
-    body: '为了获得访问 V2EX 的最佳体验，我们推荐使用 Google Chrome 或 Mozilla Firefox 浏览器。'
+    body: '为了获得访问 FeiXian8(菲闲8) 的最佳体验，我们推荐使用 [Google Chrome](https://www.google.com/chrome/) 或 [Mozilla Firefox](http://www.getfirefox.com/) 浏览器。'
 #    more:
 #     icon: fas fa-question-circle
 #     url: https://xaoxuu.com/wiki/material-x/
