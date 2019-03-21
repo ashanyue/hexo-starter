@@ -2,7 +2,7 @@
 cd ./p3scrapy/
 pwd
 echo "=====start scrapy====="
-#scrapy crawl dmoz
+scrapy crawl dmoz
 echo "=====end scrapy====="
 cd ../
 pwd
