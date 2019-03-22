@@ -10,7 +10,12 @@ keywords: 菲律宾华人
 author: feixian8
 language:
 timezone:
-
+#压缩
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+    - 'themes/**/*/*.ejs'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.feixian8.com
