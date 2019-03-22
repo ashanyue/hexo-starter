@@ -5,8 +5,8 @@
 # Site
 title: feixian8
 subtitle: 菲闲8
-description:
-keywords:
+description: 专注分享菲律宾华人生活圈的有关信息，并记录一些道德败坏份的信息
+keywords: 菲律宾华人
 author: feixian8
 language:
 timezone:
@@ -108,12 +108,12 @@ widgets:
 #        url: https://xaoxuu.com/wiki/material-x/
   - widget: plain
     icon: fas fa-bullhorn
-    title: 注意啦～
-    body: '本站使用 [Material X](https://xaoxuu.com/wiki/material-x/) 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦，超喜欢的话还可以安利给身边的朋友哦～'
+    title: 公告
+    body: 'FeiXian8(菲闲吧)，网址[https://www.feixian8.com/](https://www.feixian8.com/) 专注分享菲律宾华人生活圈的有关信息，并记录一些道德败坏份的信息'
   - widget: plain
     icon: fas fa-bullhorn
-    title: 注意啦～
-    body: '为了获得访问 FeiXian8(菲闲8) 的最佳体验，我们推荐使用 [Google Chrome](https://www.google.com/chrome/) 或 [Mozilla Firefox](http://www.getfirefox.com/) 浏览器。'
+    title: 建议
+    body: '为了获得访问 FeiXian8(菲闲吧) 的最佳体验，我们推荐使用 [Google Chrome](https://www.google.com/chrome/) 或 [Mozilla Firefox](http://www.getfirefox.com/) 浏览器。'
 #    more:
 #     icon: fas fa-question-circle
 #     url: https://xaoxuu.com/wiki/material-x/
