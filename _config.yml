@@ -114,7 +114,7 @@ widgets:
   - widget: plain
     icon: fas fa-bullhorn
     title: 公告
-    body: 'FeiXian8(菲闲吧)，网址[https://www.feixian8.com/](https://www.feixian8.com/) 专注分享菲律宾华人生活圈的有关信息，并记录一些道德败坏份的信息'
+    body: 'FeiXian8(菲闲吧)，网址[https://www.feixian8.com/](https://www.feixian8.com/) 专注分享菲律宾华人生活圈的有关信息，并记录一些不法商人或个人的不良记录'
   - widget: plain
     icon: fas fa-bullhorn
     title: 建议
