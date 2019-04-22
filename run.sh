@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ./p3scrapy/
+cd ./p2scrapy/
 pwd
 echo "=====start scrapy====="
 scrapy crawl dmoz
@@ -9,6 +9,6 @@ pwd
 echo "=====start git====="
 datename=$(date +%Y-%m-%d_%H:%M)
 echo $datename
-git add source/*
+git add ./source/*
 git commit -m "$datename"
 git push

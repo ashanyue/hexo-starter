@@ -25,7 +25,7 @@ class DmozSpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            yield Request(url, meta={'proxy': 'http://0.0.0.0:1087'}, callback=self.parse)
+            yield Request(url, callback=self.parse)
 
     #
     # def post_login(self, response):
@@ -52,7 +52,7 @@ class DmozSpider(scrapy.Spider):
             else:
                 dir = 'other'
 
-            prefixPath = '/Users/robbin/Documents/Work/hexo-starter/source/_posts/'
+            prefixPath = '/www/wwwroot/hexo-starter/source/_posts/'
             mdFilePath = prefixPath + dir + '/' + articleID + '.md'
 
             if os.path.exists(mdFilePath) == False:
