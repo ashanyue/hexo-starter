@@ -2,6 +2,16 @@
 <html>
 <%- partial('_partial/head') %>
 <body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138774172-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138774172-1');
+  </script>
+
     <%- partial('_partial/loading') %>
     <script>setLoadingBarProgress(20)</script>
     <%- partial('_partial/header', null, {cache: !config.relative_link, path: path}) %>
