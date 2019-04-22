@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ./p3scrapy/
+cd ./p2scrapy/
 pwd
 echo "=====start scrapy====="
 scrapy crawl dmoz
