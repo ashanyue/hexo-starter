@@ -116,7 +116,7 @@ class DmozSpider(scrapy.Spider):
         description = soup.get_text().replace('\n', '')
         date_time = response.meta['date_time']
         # print(title,response.meta['date_time'],len(content),response.url)
-        # print("=======")
+        print("=======")
 
         item = P3ScrapyItem()
         item['id'] = re.findall(r'thread-(\d+)', response.url)[0]
@@ -132,4 +132,5 @@ class DmozSpider(scrapy.Spider):
         item['mdFilePath'] = response.meta['mdFilePath']
         item['categories'] = response.meta['categories']
         if len(item['description']) >= 40 or len(imgtags) > 0:
-            yield item
+          	print('aaadd@@')
+          	yield item
